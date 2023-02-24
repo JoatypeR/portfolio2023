@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/125201d2bf/UntitledProject/style.css">
+  <title>Joachim|Home</title>
+  <link rel="icon" href="img/icon.svg" type="image/png">
+</head>
+
+<body>
+  <header>
+    <!--Hamburger Icon-->
+   <div id="hamburger">
+     <span></span>
+     <span></span>
+     <span></span> 
+   </div>
+   <!--End of Hamburger Icon-->
+   
+   <!--Menu Options-->
+   <div class="menu-options">
+     <ul id="menu-list">
+       <li class="home"><a class="menu" href="home.html">Home</a></li>
+       <li class="about"><a class="menu" href="propos.html">About me</a></li>
+       <li class="blog"><a class="menu" href="portfolio.html">My works</a></li>
+       <li class="contact"><a class="menu" href="contact.html">Contact</a></li>
+     </ul>
+     <ul id="menu-light">
+      <li>
+      <label class="switch">
+        <input type="checkbox"id="myCheckbox" onclick="goToPage()">
+        <span class="slider"></span>
+    </label>
+  </li>
+           <li class="french"><a class="Darkmode" href="homefr.html">Français</a></li>
+     </ul>
+   </div>
+   <!--End of Menu Options-->
+   
+   </header>
+  <div class="hero-mask">
+    <h1>JOACHIM</h1>
+  </div>
+    <div class="presentation">
+      <div class="presentation-text">
+      <h2>Webdesigner UI/UX</h2>
+      <h2>HTML/CSS/JavaScript Developper</h2>
+      <h2>Wordpress Integrator</h2>
+      <h2>SEO Referencement Expert</h2>
+      <h2>Graphist, Photographer And Videographer</h2>
+    </div>
+      <img src="img/ai.jpg" alt="portrait"/>
+    </div>
+    <div class="links">
+    <li class="home"><a class="menu-page" href="home.html">Home</a></li>
+    <li class="about"><a class="menu-page" href="propos.html">About me</a></li>
+    <li class="blog"><a class="menu-page" href="portfolio.html">My works</a></li>
+    <li class="contact"><a class="menu-page" href="contact.html">Contact</a></li>
+  </ul>
+    </div>
+    <button class="cv"><a class="button" href="https://1drv.ms/b/s!Am0zunUwoYHxbfig_QmbxJaPmx0?e=ubYUKU">Download My CV</a></button>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="nav.js"></script>
+  <script>
+    function goToPage() {
+      if (document.getElementById('myCheckbox').checked) {
+        window.location.href = 'homedark.html';
+      }
+    }
+    </script>
+</body>
+<footer class="footer">
+  <p>Done with love by Joachim Wery</p>
+  <div class="social">
+    <a href="https://www.instagram.com/joachimwery/">
+    <img src="SVG/instagram.svg" alt="instagram" srcset="svg/instagram.svg">
+    </a>
+    <a href="https://www.behance.net/wryjoachim/">
+      <img src="SVG/behance.svg" alt="behance" srcset="svg/behance.svg">
+    </a>
+    <a href="https://github.com/JoatypeR">
+      <img src="SVG/github.svg" alt="github" srcset="svg/github.svg">
+    </a>
+    <a href="https://www.linkedin.com/in/joachim-wery/">
+      <img src="SVG/linkedin2.svg" alt="linkedin" srcset="svg/linkedin2.svg">
+    </a>
+    <a href="https://codepen.io/MonsieurJo">
+      <img src="SVG/codepen.svg" alt="codepen" srcset="svg/codepen.svg">
+  </a>
+</div>
+<div class="contact-zone">
+  <a href="tel:0497315231">0497/31.52.31</a>
+  <a href="mailto:joachimwery@outlook.com">joachimwery@outlook.com</a>
+</div>
+</footer>
+</html>
